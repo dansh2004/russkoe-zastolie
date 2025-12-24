@@ -1,0 +1,27 @@
+/* Весь CSS стиль из оригинального файла */
+:root {
+    --primary-color: #8B0000;
+    --secondary-color: #D4AF37;
+    --accent-color: #2F4F4F;
+    --light-color: #FFF8DC;
+    --dark-color: #333333;
+    --text-color: #222222;
+    --light-text: #FFFFFF;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* ... остальной CSS код полностью ... */
